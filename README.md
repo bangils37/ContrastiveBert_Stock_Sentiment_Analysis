@@ -3,7 +3,9 @@
 # **ContrastiveBert_Stock_Sentiment_Analysis**
 
 Ứng dụng mô hình BERT và kỹ thuật Contrastive Learning để giải quyết bài toán Stock Sentiment Analysis. Mục tiêu đặt ra là phân tích cảm xúc từ các bình luận về thị trường chứng khoán dựa trên 2 nhãn bullish (~positive), bearish (~negative) và 12 nhãn cảm xúc ambiguous, amusement, anger, anxiety, belief, confusion, depression, disgust, excitement, optimism, panic, surprise. Trong đó, mô hình đạt độ chính xác trung bình 79.4% với dự đoán 2 nhãn và 40% với dự đoán 12 nhãn trên tập dữ liệu StockEmotions.
+
 Dataset: https://github.com/adlnlp/StockEmotions
+
 Repo này cung cấp mã nguồn các mô hình cùng với tập dữ liệu cần thiết để tái tạo kết quả và áp dụng vào các ứng dụng phân tích cảm xúc từ các bình luận về thị trường chứng khoán thực tế.
 
 ## **Dependencies and Installation**
